@@ -4,14 +4,17 @@ The backend server is written in Typescript using Node.js, with Express as the s
 
 ## How to run the server
 
-To run the server:
+To install everything (do this every time you pull):
+```
+npm install
+```
 
+To run the server:
 ```
 npm start
 ```
 
-To just build the server code:
-
+To just build the server code once:
 ```
 npm run build
 ```
