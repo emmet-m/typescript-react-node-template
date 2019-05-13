@@ -24,6 +24,7 @@ To just build the project once:
 ```
 npm run build
 ```
+
 ## Files in this directory
 
 `dist/` Is the build folder. Don't commit this directory, don't change anything in this directory (it gets deleted every time you build).
@@ -43,3 +44,7 @@ npm run build
 `package-lock.json` Contains stuff to help npm install things faster and without errors. Commit this file, you need it!
 
 `webopack.config.js` Contains all the configurations for running webpack (the server and the code compiler). You shouldn't touch this file much!
+
+## Tutorials
+
+I used [this article](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) to help set up webpack.
