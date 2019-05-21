@@ -11,10 +11,17 @@ App.get("/", (request, response) => {
   response.send("Hello world, it's me!");
 });
 
+
+
+
+// This part should go last!
+// Now that we've registered all the routes for our
+// Sever, we start it listening on the port below.
 App.listen(PORT, err => {
   // Check if the server failed to start
-  if (err)
+  if (err) {
     return console.error(err);
+  }
 
   // Startup message
   console.log(`Server listening on http://localhost:${PORT}`)

@@ -4,13 +4,14 @@
         <title>Hello React!</title>
     </head>
     <body>
-        <div id="example"></div>
-
-        <!-- Dependencies -->
-        <script src="/node_modules/react/umd/react.development.js"></script>
-        <script src="/node_modules/react-dom/umd/react-dom.development.js"></script>
-
-        <!-- Main -->
-        <script src="/dist/bundle.js"></script>
+        <!-- Entrypoint -->
+        <div id="main"></div>
     </body>
+
+    <!-- Dependencies -->
+    <script src="/node_modules/react/umd/react.development.js"></script>
+    <script src="/node_modules/react-dom/umd/react-dom.development.js"></script>
+
+    <!-- Main source of code made by webpack -->
+    <script src="/dist/bundle.js"></script>
 </html>

@@ -30,6 +30,10 @@ There's two directories here:
 
 This is the client side code. Everything that makes up the webpage you see is here (React, HTML, CSS, etc.).
 
+Check out the readme in this folder to see how to build/run it!
+
 #### backend
 
 This is the server side code. Everything that runs on the backend is here (Node.js, etc.)
+
+Check out the readme in this folder to see how to build/run it!
