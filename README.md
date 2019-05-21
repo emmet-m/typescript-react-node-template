@@ -22,6 +22,12 @@ Install the extensions:
 * [TsLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 * [Node Debug](https://marketplace.visualstudio.com/items?itemName=ms-vscode.node-debug2) *Optional*
 
+## Git setup and details
+
+**You cannot push to the master branch** (if you try, it will fail!). When pushing new code, make a branch and merge it into master using github!
+
+**Testing** hasn't been set up, at all. You should look into what frameworks you can use to test the backend and frontend.
+
 ## Layout
 
 There's two directories here:
