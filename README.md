@@ -24,7 +24,7 @@ Install the extensions:
 
 ## Git setup and details
 
-**You cannot push to the master branch** (if you try, it will fail!). When pushing new code, make a branch and merge it into master using github!
+**Do not push to master**. When pushing new code, make a branch and merge it into master using github!
 
 **Testing** hasn't been set up, at all. You should look into what frameworks you can use to test the backend and frontend.
 
