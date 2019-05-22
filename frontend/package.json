@@ -10,6 +10,7 @@
   "dependencies": {
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
+    "chalk": "^2.4.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "tslint": "^5.16.0",
