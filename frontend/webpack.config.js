@@ -1,7 +1,7 @@
 const path = require("path");
 const chalk = require("chalk");
 
-console.log("\n\n\n");
+console.log("\n\n");
 console.log(chalk.green("Starting web server at http://localhost:8000"));
 console.log("\n\n\n");
 
