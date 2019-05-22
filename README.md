@@ -10,7 +10,7 @@ For 大家!
 Then you'll need to install all of these:
 
 ```
-npm install -g webpack webpack-dev-server typescript tslint
+npm install -g webpack webpack-cli webpack-dev-server typescript tslint
 ```
 
 Everything else can be installed by running `npm install` in the relevant directory :)
