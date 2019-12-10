@@ -24,10 +24,14 @@ Install the extensions:
 
 ## Git setup and details
 
-**Do not fork this repo**. Add it as a remote origin to your empty repository and pull in the template like so:
+**Do not fork this repo**. On GitHub, use the 'Use this template' feature to create a stub repository based on this one.
+
+If you can't use the template feature, add this repository as a remote origin to your empty repository and pull in the template like so:
 
 ```
+# Adds the remote to your local repository
 git remote add template git@github.com:emmet-m/typescript-react-node-template.git
+# Merges the template code in on top, if your repo has existing code this might cause a weird merge.
 git pull template master --allow-unrelated-histories
 ```
 
